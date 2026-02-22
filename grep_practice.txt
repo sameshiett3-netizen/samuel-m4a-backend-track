@@ -1,0 +1,2 @@
+I am learning backend development with JavaScript.
+Bash is the default shell for Linux.

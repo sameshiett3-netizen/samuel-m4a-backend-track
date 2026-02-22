@@ -1,0 +1,20 @@
+1. Algorithm: Find the Largest Number in a List
+BEGIN
+    CREATE a list of numbers
+    SET 'largest' to the first number in the list
+    FOR each number in the list:
+        IF the current number is greater than 'largest':
+            SET 'largest' to the current number
+    END FOR
+    DISPLAY 'largest'
+END
+
+2.Algorithm: Check if a word is a Palindrome
+BEGIN
+    RECEIVE a word from the user
+    REVERSE the word
+    IF the original word is the same as the reversed word:
+        DISPLAY "This word is a palindrome"
+    ELSE:
+        DISPLAY "This word is not a palindrome"
+END

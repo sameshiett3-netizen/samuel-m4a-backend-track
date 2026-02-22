@@ -1,0 +1,23 @@
+pwd: Print Working Directory. Shows the exact path of the folder you are currently in.
+
+ls -la: List All. Displays every file in the current folder, including hidden ones, along with their size and permissions.
+
+cd [path]: Change Directory. Navigates from your current folder to another one (e.g., cd ~/m4ace).
+
+mkdir -p [path]: Make Directory. Creates a new folder. The -p flag ensures any missing parent folders are created automatically.
+
+touch [filename]: Creates a brand new, empty file.
+
+echo "[text]" > [filename]: Writes text into a file. Use > to overwrite the file or >> to add text to the bottom.
+
+cat [filename]: Concatenate. Displays the entire contents of a file directly in the terminal window.
+
+nano [filename]: Opens a simple text editor inside the terminal to write or edit files.
+
+chmod +x [filename]: Change Mode. Grants "executable" permissions to a script so it can be run as a program.
+
+grep "[word]" [filename]: Search. Scans a file and prints every line that contains the specific word you are looking for.
+
+rm [filename]: Remove. Permanently deletes a file. Use rm -r for folders.
+
+mv [old] [new]: Move/Rename. Used to move a file to a different folder or change its name.
